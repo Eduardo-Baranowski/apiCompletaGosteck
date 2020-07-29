@@ -23,6 +23,7 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-props-no-spreading": "off",
+    "no-useless-constructor": "off",
     "react/prop-types": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "no-unused-expressions": "off",
@@ -34,6 +35,10 @@
       {
         "allowExpressions": true
       }
+    ],
+    "@typescript-eslint/interface-name-prefix": [
+      "error",
+      { "prefixWithI": "always" }
     ],
     "class-methods-use-this": "off",
     "@typescript-eslint/camelcase": "off",
